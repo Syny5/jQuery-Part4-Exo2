@@ -1,10 +1,10 @@
 $(function(){
-  var note1 = Number($('#note1').val());
-  var note2 = Number($('#note2').val());
-  var note3 = Number($('#note3').val());
-  var note4 = Number($('#note4').val());
-  var note5 = Number($('#note5').val());
   $('#submit').on('click', function(){
+    var note1 = Number($('#note1').val());
+    var note2 = Number($('#note2').val());
+    var note3 = Number($('#note3').val());
+    var note4 = Number($('#note4').val());
+    var note5 = Number($('#note5').val());
     console.log(note1);
     console.log(note2);
     console.log(note3);
@@ -14,16 +14,16 @@ $(function(){
     if (moyenne < 10){
       alert('Vous avez ' + moyenne + ' de moyenne. Gros naze.');
     }
-    if (moyenne < 13 && moyenne >= 10) {
+    else if (moyenne < 13 && moyenne >= 10) {
       alert('Vous avez ' + moyenne + ' de moyenne. Feignasse.');
     }
-    if (moyenne < 16 && moyenne >= 13){
+    else if (moyenne < 16 && moyenne >= 13){
       alert('Vous avez ' + moyenne + ' de moyenne. Beau gosse.');
     }
-    if (moyenne < 20 && moyenne >= 16){
+    else if (moyenne < 20 && moyenne >= 16){
       alert('Vous avez ' + moyenne + ' de moyenne. Lèche-cul.');
     }
-    if (moyenne == 20){
+    else if (moyenne == 20){
       alert('Vous avez ' + moyenne + ' de moyenne. Putain de no-life.');
     }
     else {
