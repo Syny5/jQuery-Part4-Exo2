@@ -1,0 +1,42 @@
+h1{
+  color: red;
+}
+
+h2{
+   color: blue;
+   text-decoration: underline;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+form{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+
+button{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 51px;
+  border-radius: 20px;
+  width: 500px;
+  height: 150px;
+  background-color: green;
+  border-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+#container{
+  display: flex;
+}
